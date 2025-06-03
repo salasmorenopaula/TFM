@@ -31,7 +31,7 @@ A Jupyter Notebook that uses the results from the multiple DM mass simulations t
 - Plot the exclusion curve (⟨σv⟩ vs DM mass).
 - Create a summary table with significance values and upper limits for each mass.
   
-  ## Installation and Requirements
+## Installation and Requirements
 
 To run the code, a standard scientific Python environment is needed. The following packages are required:
 
@@ -45,7 +45,7 @@ To run the code, a standard scientific Python environment is needed. The followi
 - `sympy`
 - `argparse` (built-in, used in the `.py` script)
   
-  ##  Data Requirements
+##  Data Requirements
 
 ### 1. Gammapy Data
 
@@ -57,8 +57,6 @@ Download the dataset from the official GitHub repository:
 Although only the `dark_matter_spectra` folder may be strictly necessary, downloading the full repository is recommended.
 
 After downloading, set the GAMMAPY_DATA environment variable to the folder path.  
-Example (PowerShell on Windows): ```powershell
-$env:GAMMAPY_DATA = "C:\Path\To\gammapy-data"$
 
 ### 2. CTA Instrument Response Functions (IRFs)
 
