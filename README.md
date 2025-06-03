@@ -30,6 +30,44 @@ It computes the significance and the upper limit on ⟨σv⟩ for each simulatio
 A Jupyter Notebook that uses the results from the multiple DM mass simulations to:
 - Plot the exclusion curve (⟨σv⟩ vs DM mass).
 - Create a summary table with significance values and upper limits for each mass.
+  
+  ## Installation and Requirements
+
+To run the code, a standard scientific Python environment is needed. The following packages are required:
+
+- `numpy`
+- `matplotlib`
+- `pandas`
+- `scipy`
+- `astropy`
+- `gammapy`
+- `math` (built-in)
+- `sympy`
+- `argparse` (built-in, used in the `.py` script)
+  
+  ##  Data Requirements
+
+### 1. Gammapy Data
+
+Some simulations rely on template data provided by the Gammapy team.
+
+Download the dataset from the official GitHub repository:  
+🔗 [https://github.com/gammapy/gammapy-data](https://github.com/gammapy/gammapy-data)
+
+Although only the `dark_matter_spectra` folder may be strictly necessary, downloading the full repository is recommended.
+
+After downloading, set the GAMMAPY_DATA environment variable to the folder path.  
+Example (PowerShell on Windows):
+
+```powershell
+$env:GAMMAPY_DATA = "C:\Path\To\gammapy-data"
+
+### 2. CTA Instrument Response Functions (IRFs)
+
+To perform CTA simulations, the IRFs must be downloaded from the official Zenodo record:  
+🔗 [https://zenodo.org/records/5499840](https://zenodo.org/records/5499840)
+
+Make sure that your notebooks and scripts correctly reference the location of the downloaded IRF files.
 
 ---
 
