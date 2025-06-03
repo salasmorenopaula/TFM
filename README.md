@@ -1,5 +1,5 @@
 # Heavy Dark Matter Analysis with Gammapy
-
+Author: Paula Salas Moreno (pausalas@ucm.es)
 This repository contains the code developed for the Master's Thesis focused on indirect detection of heavy dark matter in the Draco dwarf galaxy using the gammapy package and an Effective Field Theory framework.
 
 ## Contents
