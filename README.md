@@ -57,10 +57,8 @@ Download the dataset from the official GitHub repository:
 Although only the `dark_matter_spectra` folder may be strictly necessary, downloading the full repository is recommended.
 
 After downloading, set the GAMMAPY_DATA environment variable to the folder path.  
-Example (PowerShell on Windows):
-
-```powershell
-$env:GAMMAPY_DATA = "C:\Path\To\gammapy-data"
+Example (PowerShell on Windows): ```powershell
+$env:GAMMAPY_DATA = "C:\Path\To\gammapy-data"$
 
 ### 2. CTA Instrument Response Functions (IRFs)
 
